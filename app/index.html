@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Todo application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- bower:css -->
+        <!-- endbower -->
+        
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="../bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
+        <!-- endbower -->
+
+        <!-- TODO: uncomment this for copying to dest folder -->
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+        <script type="text/javascript" src="js/angularCombined.js"></script>
+        
+        <!-- TODO: comment this when copying to dest folder -->
+        <!--link rel="stylesheet" type="text/css" href="../dest/app/styles/stylesheet.css">
+        
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/controllers/overviewCtrl.js"></script-->
+        
+    </head>
+    
+    <body ng-app="todo-application">
+        <div class="page-header">
+            <div class="container">
+                <h1>Keep track of your todo's</h1>
+                <blockquote>
+                    <small>By <cite>Melissa Warrens</cite></small>
+                </blockquote>
+            </div>
+        </div>
+
+        <div ui-view></div>
+    </body>
+    
+</html>

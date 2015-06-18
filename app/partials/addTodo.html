@@ -1,0 +1,35 @@
+<ul class="breadcrumb">
+    <li><a ui-sref="overview">Overview</a></li>
+    <li class="active">Add todo</li>
+</ul>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Add todo
+    </div>
+    <div class="panel-body">
+        
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="inputEmail" class="control-label col-xs-2 col-sm-2 col-md-2 col-lg-2">Title</label>
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" class="form-control col-xs-2 col-sm-2 col-md-2 col-lg-2" id="inputTitle" placeholder="Title" ng-model='title' auto-focus>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="inputDescription" class="control-label col-xs-2">Description</label>
+                <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <input type="text" class="form-control" id="inputDescription" placeholder="Description" ng-model='description'>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <button type="submit" class="btn btn-success" ng-click='saveTodo()'>Save todo</button>
+                </div>
+            </div>
+        </form>
+        
+    </div>
+</div>

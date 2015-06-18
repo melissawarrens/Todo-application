@@ -1,0 +1,13 @@
+@import 'reset';
+
+$icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+.done {
+    text-decoration: line-through;
+}
+
+.hand {
+    cursor: pointer;
+}

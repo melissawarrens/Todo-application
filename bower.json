@@ -1,0 +1,17 @@
+{
+  "name": "Todo-application",
+  "version": "1.0.0",
+  "main": "app/styles/stylesheet.scss",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-ui-router": "~0.2.15",
+    "jquery": "~2.1.4",
+    "bootstrap-sass-official": "~3.3.4"
+  },
+  "devDependencies": {
+    "angular": "~1.4.0",
+    "angular-ui-router": "~0.2.15",
+    "jquery": "~2.1.4",
+    "bootstrap-sass-official": "~3.3.4"
+  }
+}
