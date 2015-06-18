@@ -86,7 +86,7 @@ module.exports = function(grunt) {
         karma: {
             unit: {
                 options: {
-                    files: ['test/**/*.js'],
+                    files: ['test/jasmine/jasmineTests.js'],
                     background: true
                 }
             }

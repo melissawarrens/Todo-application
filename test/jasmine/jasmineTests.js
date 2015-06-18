@@ -15,7 +15,7 @@ describe('addTodoCtrl', function() {
             $scope.title = "This is the title";
             $scope.description = "This is the description";
             $scope.saveTodo();
-            expect(localStorage.length === 1);
+            expect(localStorage.length).toBe(1);
         });
     });
 });
@@ -31,8 +31,10 @@ describe('overviewCtrl', function() {
     
     describe('$scope.deleteAll', function() {
         it('Delete all todos', function() {
-            localStorage.clear();
-            expect(localStorage.length === 0);
+            var $scope = {};
+            var controller = $controller('overviewCtrl', {$scope: $scope});
+            $scope.deleteAll();
+            expect(localStorage.length).toBe(0);
         });
     });
 });
