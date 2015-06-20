@@ -48,7 +48,7 @@ module.exports = function(grunt) {
                 separator: '\n\n',
             },
             dist: {
-                src: ['app/scripts/app.js', 'app/scripts/directives.js', 'app/js/controllers/*.js'],
+                src: ['app/scripts/app.js', 'app/scripts/directives.js', 'app/scripts/controllers/*.js'],
                 dest: 'app/scripts/angularCombined.js'
             }
         },
